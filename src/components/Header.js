@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="header-container">
             <div  >
-                <a href="/" > <img className="logo" src='https://cdn.pixabay.com/photo/2013/07/13/13/21/information-160885_1280.png' alt='logo.' /></a>
+                <Link to="/" > <img className="logo" src='https://cdn.pixabay.com/photo/2013/07/13/13/21/information-160885_1280.png' alt='logo.' /></Link>
             </div>
             <ul className="nav-link">
                 <li><Link to={ROUTE_ROOT_PATH.CSS}>CSS</Link></li>

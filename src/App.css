@@ -95,3 +95,15 @@
 .contant_box_404 {
   margin-top: -50px;
 }
+
+.ans-sheet {
+  background-color: rgb(199, 239, 225);
+  font-size: 1.6rem;
+  padding: 1% 2%;
+}
+.ans-sheet-module {
+  border-radius: 20px;
+  border: 1px solid;
+  margin: 1% 2%;
+  padding: 1% 1%;
+}
