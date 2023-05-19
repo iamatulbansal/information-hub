@@ -47,25 +47,26 @@
 /* Body */
 
 .body-container {
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
-
+.body-img {
+  width: 60%;
+}
 /*======================
     404 page
 =======================*/
-
 
 .page_404 {
   padding: 40px 0;
   background: #fff;
   font-family: "Arvo", serif;
   text-align: center;
-  
 }
 
 .page_404 img {
   width: 100%;
-  
 }
 
 .four_zero_four_bg {
@@ -78,12 +79,10 @@
 
 .four_zero_four_bg h1 {
   font-size: 80px;
- 
 }
 
 .four_zero_four_bg h3 {
   font-size: 80px;
- 
 }
 
 .link_404 {

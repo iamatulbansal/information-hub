@@ -3,7 +3,7 @@ import { ROUTE_ROOT_PATH } from '../constants/constant'
 import JavascriptQuestion from '../pages/JavascriptQuestion'
 import App from '../App';
 import Body from '../components/Body';
-import  Error from '../components/Error';
+import  Error from '../pages/Error';
 const appRoute = createBrowserRouter([
     {
         path: "/",
