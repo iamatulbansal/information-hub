@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+
 
 const Body = () => {
   return (
-    <div>Body</div>
-  )
-}
+    <div className='body-container'>
+      Body
+      
+    </div>
+  );
+};
 
-export default Body
+export default Body;
